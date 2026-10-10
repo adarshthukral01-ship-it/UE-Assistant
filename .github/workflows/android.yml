@@ -13,7 +13,6 @@ jobs:
 build:
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Checkout repository
     uses: actions/checkout@v4
@@ -43,4 +42,3 @@ steps:
       name: UE-Assistant-debug-APK
       path: app/build/outputs/apk/debug/*.apk
       if-no-files-found: error
-```
